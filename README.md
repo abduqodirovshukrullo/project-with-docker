@@ -20,7 +20,7 @@
 - For all currencies
 >  api/currencies 
 
--For one currency details by id
+- For one currency details by id
 >  api/currency/{currency}
 
 ### Commands
