@@ -17,7 +17,10 @@
 - adminer use image:
   - adminer:latest
 #### Available routes: 
->  api/currencies
+- For all currencies
+>  api/currencies 
+
+-For one currency details by id
 >  api/currency/{currency}
 
 ### Commands

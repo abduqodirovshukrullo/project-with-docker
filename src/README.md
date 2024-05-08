@@ -1,23 +1,20 @@
 # Table of Contents
 - [Table of Contents](#table-of-contents)
-    - [References](#references)
     - [Intro](#intro)
-      - [Available cities:](#available-cities)
+      - [Available routes:](#available-routes)
     - [Commands](#commands)
    
 
-### References
->[Telegraph](https://defstudio.github.io/telegraph/)
-
 ### Intro
-> Weather api. Using AccuWeather and OpenWeatherMap
+> Docker project
 
-#### Available cities: 
-> [Tashkent London Moscow	Astana]
+#### Available routes: 
+>  api/currencies
+
+>  api/currency/{currency}
 
 ### Commands
 
 >------------------------------------------------------------------
-> - php artisan weather:open-weather-map Tashkent mail: {mail}
->------------------------------------------------------------------
-> - php artisan weather:accu-weather Tashkent telegram: {chat_id}
+> - php artisan currency:load
+>------------------------------------
