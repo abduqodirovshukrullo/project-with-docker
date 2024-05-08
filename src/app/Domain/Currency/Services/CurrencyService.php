@@ -36,7 +36,7 @@ class CurrencyService
             foreach($data['CcyNtry'] as $item){
                 $model = Currency::updateOrCreate([
                    'cbr_id'=>$item['@attributes']['ID'] ],[
-                   'name'=>$item['CcyNm_UZ'],
+                   'name'=>$item['CcyNm_RU'],
                    'nominal'=>$item['Nominal'],
                    'value'=>$item['Rate'],
                    'rate'=>$item['Rate'],
